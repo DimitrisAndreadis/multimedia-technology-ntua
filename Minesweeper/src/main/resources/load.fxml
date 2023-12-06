@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="medialab.minesweeper.LoadHandler">
+      <Text text="Enter Scenario Filename:"/>
+      <TextField fx:id="scenarioField" alignment="CENTER" text="SCENARIO-00" />
+      <Button  onAction="#findScenario" text="Load"/>
+      <Text fx:id="messageText"  text="-------" />
+
+</VBox>

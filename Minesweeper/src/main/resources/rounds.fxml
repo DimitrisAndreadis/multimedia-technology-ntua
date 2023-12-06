@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<GridPane fx:id="roundGrid" alignment="CENTER" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="medialab.minesweeper.Roundhandler">
+    <columnConstraints>
+        <ColumnConstraints halignment="CENTER"  prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER"  prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER"  prefWidth="100.0"/>
+        <ColumnConstraints halignment="CENTER"  prefWidth="100.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints  prefHeight="50.0"  />
+        <RowConstraints  prefHeight="50.0"  />
+        <RowConstraints  prefHeight="50.0"  />
+        <RowConstraints  prefHeight="50.0"  />
+        <RowConstraints  prefHeight="50.0"  />
+        <RowConstraints  prefHeight="50.0"  />
+    </rowConstraints>
+      <Text text="Mines" GridPane.columnIndex="0" />
+      <Text text="Tries" GridPane.columnIndex="1" />
+      <Text text="Time" GridPane.columnIndex="2" />
+      <Text text="Winner" GridPane.columnIndex="3" />
+</GridPane>
